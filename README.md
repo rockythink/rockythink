@@ -1,47 +1,41 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
-  <img alt="Elazer Wang — AI, data & independent software. Small tools. Real problems." src="./assets/header-light.svg" width="1200">
-</picture>
+<p align="center">
+  <samp>
+    <a href="https://elazer.wang">个人站</a> ·
+    <a href="https://elazer.wang/products">产品</a> ·
+    <a href="https://ss-data.cc">拾穗数据</a> ·
+    <a href="mailto:hi@elazer.wang">联系</a>
+  </samp>
+</p>
 
-[个人站 / Website](https://elazer.wang) · [拾穗数据 / Writing](https://ss-data.cc) · [产品 / Products](https://elazer.wang/products) · [联系 / Email](mailto:hi@elazer.wang)
+## Elazer / 石头
 
-## Hi, I'm Elazer / 石头
+**AI 和数据领域研究者 · 独立开发者 · 拾穗数据主理人**
 
-**AI 和数据领域的研究者，也是一名独立开发者。**
+研究 AI 如何参与真实的数据工作，也做自己每天会用的小工具：查数据、读英文、整理剪贴板。做工具，写实践，尽量把问题和边界讲清楚。
 
-我维护「拾穗数据」，写数据工程、架构和 AI 实践，也把自己日常遇到的问题做成工具：可信的数据查询、更少打扰的英文阅读、顺手的 Mac 工作流。
+### 代表作品
 
-I work at the intersection of AI, data, and independent software. I build tools for real workflows and write about what I learn along the way.
+- **[Forge](https://github.com/shisuidata/Forge)** — 让 Data Agent 的查询可信、可控、可追溯。用语义约束、确定性 SQL 编译和审计记录连接 AI 与真实数据。*早期项目，适合受控评估。*
+- **[Copyla](https://copyla.elazer.wang)** — 完全本地的 Mac 剪贴板工作台。检索历史、顺序粘贴与本机 OCR，让复制过的内容继续有用。
+- **[RelyLess](https://github.com/rockythink/relyless)** — 少依赖一点翻译，多读懂一点英文。保留原文，按需提供少量阅读提示。*Chrome / Edge 扩展，公开预发布，通过 GitHub Releases 分发。*
+- **[Clacklet](https://clacklet.elazer.wang)** — 让每次敲击都有回应。为 Mac 键盘和鼠标配上声音、节奏与桌面反馈。
 
-## Selected open source / 开源项目
+[全部产品与开发记录 →](https://elazer.wang/indie-building)
 
-### AI × Data
+### 其他开源
 
-- **[Forge](https://github.com/shisuidata/Forge)** — 面向 Data Agent 的可信数据查询基础设施：语义约束、确定性 SQL 编译、可审查的执行与审计。早期项目，适合受控评估。
-- **[ss-data-skills](https://github.com/shisuidata/ss-data-skills)** — 面向数据开发工作流的 AI Agent Skills，把方法写成可复用的技能。
+- **[ss-data-skills](https://github.com/shisuidata/ss-data-skills)** — 把数据分析、开发与治理的方法写成可复用的 AI Agent Skills。
+- **[limitdeck](https://github.com/rockythink/limitdeck)** — 在终端里查看 AI 订阅额度，注重隐私。
+- **[拾穗弹幕台](https://github.com/rockythink/shisui-danmu)** — 在终端里整理 B 站直播的弹幕、提问与记录。
+- **[Mac 净化器伴侣](https://github.com/rockythink/mac-purifier-companion)** — 在 Mac 菜单栏监测系统状态，联动小米净化器。不是系统清理软件。
+- **[omp-settings-zh](https://github.com/rockythink/omp-settings-zh)** — Oh My Pi 的简体中文设置本地化；不维护分叉，不修改二进制。
 
-### Tools for everyday work
+### 写作与取舍
 
-- **[RelyLess](https://github.com/rockythink/relyless)** — 保留英文原文，按需提供少量阅读提示。Chrome / Edge 扩展，通过 GitHub Releases 分发。
-- **[limitdeck](https://github.com/rockythink/limitdeck)** — 注重隐私的 AI 订阅额度终端看板。
-- **[拾穗弹幕台](https://github.com/rockythink/shisui-danmu)** — 面向知识型主播的弹幕与提问 TUI 工作台。
-- **[omp-settings-zh](https://github.com/rockythink/omp-settings-zh)** — 官方 Oh My Pi 的简体中文设置本地化；不维护分叉，也不修改二进制。
-
-## Made for Mac / 独立产品
-
-**[Copyla](https://copyla.elazer.wang)** · 本地剪贴板工作台，检索历史、顺序粘贴与本机 OCR。  
-**[Clacklet](https://clacklet.elazer.wang)** · 键盘与鼠标的声音、节奏和桌面反馈。  
-**[Mac 净化器伴侣](https://github.com/rockythink/mac-purifier-companion)** · 免费开源的 Mac 状态监测与小米净化器联动工具。
-
-[更多产品与开发记录 →](https://elazer.wang/indie-building)
-
-## Notes & principles / 写作与取舍
+在 **[拾穗数据](https://ss-data.cc)** 写数据工程、架构、AI 实践与职业成长，也维护 **[数据从业者的全栈知识库](https://pro.ss-data.cc)**（付费知识产品）。
 
 先看问题，再选工具。能在本地完成的，就不绕远路；需要 AI 的地方，也把边界讲清楚。
 
-我在 **[拾穗数据](https://ss-data.cc)** 记录数据工程、架构、AI 与职业成长，也维护 **[数据从业者的全栈知识库](https://pro.ss-data.cc)**（付费知识产品）。
-
 ---
 
-欢迎聊数据与 AI 实践，也欢迎交流小工具：**[hi@elazer.wang](mailto:hi@elazer.wang)**
+聊数据、AI，或你正在做的小工具：**[hi@elazer.wang](mailto:hi@elazer.wang)**
